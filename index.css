@@ -1,0 +1,33 @@
+#calculator {
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 10px;
+  width: 220px;
+  background-color: #616168; 
+  /* margin-left: 200px; 
+  margin-top: 250px; */
+}
+#display {
+  margin: 10px;
+  width: 86%;
+  font-size: 35px;
+  border-radius: 5px;
+  background-color: rgb(205, 215, 234);
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  height: 35px;
+  width: 50px;
+  margin: 3px;
+  border-radius: 5px;
+}
